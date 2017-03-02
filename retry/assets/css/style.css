@@ -260,10 +260,10 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * about/cat/work-pages
+ * about/cat/work-pages/spotify
 /* ---------------------------------------------- */
 
-.about .work-pages{
+.about, .work-pages{
   background: #fff;
   border-bottom: 1px solid #d4d4d4;
   text-align: center;
@@ -271,17 +271,20 @@ textarea.form-control {
   margin: 0 0 20px;
 }
 
-.about-desc .work-desc {
+.about-desc, .work-desc {
   margin: 0 0 15px;
   color: #222;
+  letter-spacing: 0.3px;
+  line-height: 29px;
+  font-size: 14px;
 }
 
-.about-title .catbox-name {
+.about-title, .catbox-name {
   margin: 0 0 15px;
   padding: 0;
 }
 
-.catbox-text .work-text .about-text {
+.catbox-text, .work-text, .about-text {
   padding-left: 55px;
 }
 
@@ -302,14 +305,17 @@ textarea.form-control {
   margin: 0;
 }
 
+.spotify {
+  margin-left: 40px;
+}
 
-.work-subtitle .work-desc {
+.work-subtitle, .work-desc {
   font: 400 14px 'Merriweather', serif !important;
   letter-spacing: 5px !important;
   text-transform: uppercase !important;
 }
 
-.catbox-items-container .catbox-item {
+.catbox-items-container, .catbox-item {
   display: block;
   list-style: none;
   overflow: hidden;
@@ -318,7 +324,7 @@ textarea.form-control {
   padding: 0;
 }
 
-.catbox-items-container .catbox-item .catbox-image .work-image img {
+.catbox-items-container, .catbox-item, .catbox-image, .work-image, img {
   display: block;
   width: 100%;
   height: auto;
@@ -369,13 +375,13 @@ textarea.form-control {
   margin: 0;
 }
 
-.portfolio-items-container .portfolio-item {
+.portfolio-item {
   display: block;
   list-style: none;
   overflow: hidden;
-  width: 25%;
+  border: solid white 5px;
   width: 33.333%;
-  padding: 0;
+  padding: 0px;
 }
 
 .portfolio-items-container .portfolio-item img {
